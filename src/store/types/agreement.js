@@ -1,0 +1,9 @@
+export const INIT_AGREEMENTS            = 'INIT_AGREEMENTS';
+export const AGREEMENT_REQUEST          = 'AGREEMENT_REQUEST';
+export const AGREEMENT_SUCCESS          = 'AGREEMENT_SUCCESS';
+export const AGREEMENT_FAIL             = 'AGREEMENT_FAIL';
+export const SERVICE_AGREEMENT_REQUEST  = 'SERVICE_AGREEMENT_REQUEST';
+export const AGREEMENT_CONFIRMED        = 'AGREEMENT_CONFIRMED';
+export const AGREEMENT_FALIED           = 'AGREEMENT_FALIED';
+export const CLOSE_REQUEST_MODAL        = 'CLOSE_REQUEST_MODAL';
+  

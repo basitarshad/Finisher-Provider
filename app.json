@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Finisher-Providers",
+    "slug": "finisherproviders",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/AppIcon.png",
+    "splash": {
+      "image": "./assets/images/providersplash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.finisher.finisherProvider",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDqYvGztDs7kXNOqKHbJqNyz2RQO_hw-78"
+      }  
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.finisher.finisherProvider",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDqYvGztDs7kXNOqKHbJqNyz2RQO_hw-78"
+        }
+      }
+    },
+    "androidStatusBar": {     
+      "barStyle": "dark-content",
+      "backgroundColor": "#125c94"
+    }
+  }
+}
